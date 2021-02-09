@@ -227,6 +227,8 @@ misc:Line()
 misc:Button("DeathZone GodMode.","Press to have a god mode, so people can't kill you. But you still can >:)",function()
 Flux:Notification("RangeGodMode is running, have fun!", "OK", "Range:GodMode | Status", 66, 133, 254)
 game.Players.LocalPlayer.Character.DeathMark:Destroy()
+pcall(function()
+end)
 end)
 misc:Toggle("DeathZone GodMode loop.","Press to have a god mode, so people can't kill you. But you still can >:)",false,function(toggle)
 while toggle do
