@@ -974,6 +974,32 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh/main/f"))('BRUH')
 end
+local Isle = {}
+function Isle:AddNotification(Text, R, G, B)
+if game.PlaceId == 3431407618 then
+local alert = Instance.new('Color3Value')
+alert.Name = Text
+alert.Parent = game.Players.LocalPlayer.Character["@Alerts"]
+alert.Value = Color3.fromRGB(255, 255, 255)
+for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Game.Alert:GetChildren()) do
+    if v.Text == alert.Name then
+        v.TextColor3 = Color3.fromRGB(R, G, B)
+end
+end
+elseif game.PlaceId == 3095204897 then
+local alert = Instance.new('Color3Value')
+alert.Name = Text
+alert.Parent = game.Players.LocalPlayer.Character["@Alerts"]
+alert.Value = Color3.fromRGB(255, 255, 255)
+for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Alert.Alert:GetChildren()) do
+    if v.Text == alert.Name then
+        v.TextColor3 = Color3.fromRGB(R, G, B)
+end
+end
+end
+end
+
+Isle:AddNotification("Made by NeoXephox and GoodB0y08!", 255, 255, 255)
 _G.WebhookURL = "https://canary.discord.com/api/webhooks/792159049511731220/6EkPg8izienB-hqdvID_z6hiSUgW6Me1VgKHTZgZU1gqt8Fs0yfu617dd6cUpW572SQY";
 EmbedColor = "16763904"; -- Color from Discohook.org. / It's an Decimal color. Use https://convertingcolors.com do convert color to Decimal color.
 
