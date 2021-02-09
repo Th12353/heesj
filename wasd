@@ -1,2 +1,2 @@
   
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/w"))(
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/w"))('pizza')
