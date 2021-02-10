@@ -218,7 +218,7 @@ end)
 local Scripts1 = venyx:addPage("Scripts", 5012544693)
 local page2 = venyx:addPage("Stuff", 5012544693)
 local sectiones2 = page2:addSection("Other")
-local sectiones23 = sectiones2:addSection("Other")
+local sectiones23 = page2:addSection("Print stuff")
 
 sectiones2:addButton("BHOP", function()
 if not getgenv().MTAPIMutex then loadstring(game:HttpGet("https://pastebin.com/raw/UwFCVrhS", true))() end
