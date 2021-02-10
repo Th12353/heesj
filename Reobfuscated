@@ -218,6 +218,7 @@ end)
 local Scripts1 = venyx:addPage("Scripts", 5012544693)
 local page2 = venyx:addPage("Stuff", 5012544693)
 local sectiones2 = page2:addSection("Other")
+local sectiones23 = sectiones2:addSection("Other")
 
 sectiones2:addButton("BHOP", function()
 if not getgenv().MTAPIMutex then loadstring(game:HttpGet("https://pastebin.com/raw/UwFCVrhS", true))() end
@@ -292,7 +293,7 @@ _G.options = {
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh/main/yeok", true))()
 end)
-sectiones2:addButton("Print Player Inventories", function()
+sectiones23:addButton("Print Player Inventories", function()
     for i,v in pairs(game.Players:GetDescendants()) do
             if v.Name:find("Fire") then
                 if v.Parent.Parent.Parent.ClassName == 'Player' then
@@ -428,7 +429,7 @@ for i, v in pairs(light:GetChildren()) do
 end
 _G.FullBrightEnabled = false
 end)
-sectiones2:addTextbox("Print Player Kills", "Default", function(value, focusLost)
+sectiones23:addTextbox("Print Player Kills", "Default", function(value, focusLost)
 
 if focusLost then
 local pwlayer = value
