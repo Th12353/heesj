@@ -435,11 +435,9 @@ if focusLost then
 local pwlayer = value
 local killedvalue = game.Workspace.GameState.Statistics[pwlayer]["Players Killed"].Value
 
-if game.Workspace.GameState.Statistics[value] then
+
     print("The player you are trying to check does not exist!")
-    else
 print(pwlayer.. " has killed ".. killedvalue.. " players.")
-end
 end
 end)
 local Isle929 = venyx:addPage("Misc", 5012544693)
