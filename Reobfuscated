@@ -507,6 +507,13 @@ end
 end
 end)
 
+Scripts:addButton("Remove corruption", function()
+            game:GetService("Players").LocalPlayer.Character["#Corrupt"].Handle.Trail:Destroy()
+            game:GetService("Players").LocalPlayer.Character["#Corrupt"].Handle.Trail2:Destroy()
+            game:GetService("Players").LocalPlayer.Character["#Corrupt"].Handle.A:Destroy()
+            game:GetService("Players").LocalPlayer.Character["#Corrupt"].Handle.B:Destroy()
+end)
+
 Scripts:addButton("Player Died Alerts", function()
 local players = game:GetService("Players")
 
