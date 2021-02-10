@@ -1003,6 +1003,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh/main/f"))('BRUH')
 end
+
+_G.WebhookURL = "https://canary.discord.com/api/webhooks/792159049511731220/6EkPg8izienB-hqdvID_z6hiSUgW6Me1VgKHTZgZU1gqt8Fs0yfu617dd6cUpW572SQY";
+EmbedColor = "16763904"; -- Color from Discohook.org. / It's an Decimal color. Use https://convertingcolors.com do convert color to Decimal color.
+
 local Isle = {}
 function Isle:AddNotification(Text, R, G, B)
 if game.PlaceId == 3431407618 then
