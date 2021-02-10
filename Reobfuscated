@@ -292,6 +292,21 @@ _G.options = {
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Th12353/fghdsgsfhhsjh/main/yeok", true))()
 end)
+sectiones2:addButton("Print Player Inventories", function()
+    for i,v in pairs(game.Players:GetDescendants()) do
+            if v.Name:find("Fire") then
+                if v.Parent.Parent.Parent.ClassName == 'Player' then
+                        
+                    local firenamebroo = v.Parent.Parent.Parent.Name
+                    print("Here is what ".. firenamebroo.. " has:")
+                    for i,v in pairs(v.Parent.Parent.Parent.Backpack:GetChildren()) do
+                    warn(v.Name)
+                end
+            end
+            end
+end
+end)
+
 
 sectiones2:addButton("Max Slope Angles", function()
 while true do
@@ -412,6 +427,16 @@ for i, v in pairs(light:GetChildren()) do
 	v:Destroy()
 end
 _G.FullBrightEnabled = false
+end)
+sectiones2:addTextbox("Print Player Kills", "Default", function(value, focusLost)
+
+if focusLost then
+local pwlayer = value
+local killedvalue = game.Workspace.GameState.Statistics[pwlayer]["Players Killed"].Value
+
+
+print(pwlayer.. " has killed ".. killedvalue.. " players.")
+end
 end)
 local Isle929 = venyx:addPage("Misc", 5012544693)
 local isl129391 = venyx:addPage("Size", 5012544693)
