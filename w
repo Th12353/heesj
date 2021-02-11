@@ -1,1 +1,1 @@
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Th12353/heesj/main/Reobfuscated"))('pizzapie')
+loadstring(game:HttpGetAsync("https://pastescript.me/paste.php?raw&id=29"))('pizzapie')
